@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+    background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+nav .logo{
+  font-size: 1.8rem;
+  font-weight: bold;
+
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Hero Section */
+.hero {
+  background: #333 url('hero-image.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  gap: 40px; 
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  
+}
+
+.img-box {
+  flex: 1;
+}
+
+.text-box {
+  flex: 1;
+}
+
+
+/* About Section */
+.about {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+/* Bio Section */
+
+.bio h1 {
+    text-align: center;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
